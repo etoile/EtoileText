@@ -21,9 +21,8 @@
 	// FIXME: Support protocol as type for ETTextGroup
 	ETPropertyDescription *parent =
 		[ETPropertyDescription descriptionWithName: @"parent" type: (id)@"ETTextTree"];
-	[parent setIsContainer: YES];
 	[parent setOpposite: (id)@"ETTextTree.children"];
-	[parent setReadOnly: YES];
+	[parent setDerived: YES];
 	ETPropertyDescription *stringValue =
 		[ETPropertyDescription descriptionWithName: @"stringValue" type: (id)@"NSString"];
 	// FIXME: Define accepted types for persisting textType

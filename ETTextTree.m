@@ -65,9 +65,8 @@ typedef struct
 	// FIXME: Support protocol as type for ETTextGroup
 	ETPropertyDescription *parent =
 		[ETPropertyDescription descriptionWithName: @"parent" type: (id)@"ETTextTree"];
-	[parent setIsContainer: YES];
 	[parent setOpposite: (id)@"ETTextTree.children"];
-	[parent setReadOnly: YES];
+	[parent setDerived: YES];
 	// FIXME: Define accepted types for persisting textType
 	ETPropertyDescription *textType =
 		[ETPropertyDescription descriptionWithName: @"textType" type: (id)@"NSObject"];
