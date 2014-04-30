@@ -1,4 +1,6 @@
 #import <EtoileFoundation/EtoileFoundation.h>
+#import <EtoileXML/ETXMLNullHandler.h>
+#import <EtoileXML/ETXMLParserDelegate.h>
 
 @class ETTextDocument;
 /**

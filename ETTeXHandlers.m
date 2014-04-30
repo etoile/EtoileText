@@ -1,3 +1,5 @@
+#import <EtoileXML/ETXMLParserDelegate.h>
+#import <EtoileXML/ETXMLNullHandler.h>
 #import "EtoileText.h"
 
 @implementation ETTeXIgnoreHandler

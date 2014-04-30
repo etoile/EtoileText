@@ -1,6 +1,7 @@
 #import <EtoileFoundation/EtoileFoundation.h>
 #import "EtoileText.h"
 
+#pragma GCC diagnostic ignored "-Wprotocol"
 /**
  * String object that represents all of the text contained in an ETText tree.
  */

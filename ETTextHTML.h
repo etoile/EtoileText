@@ -21,6 +21,7 @@
 - (void)writer: (ETXHTMLWriter*)aWriter endTextNode: (id<ETText>)aNode;
 @end
 
+@class ETXMLWriter;
 @class ETXHTMLFootnoteBuilder;
 @class ETReferenceBuilder;
 /**

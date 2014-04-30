@@ -1,3 +1,4 @@
+#import <EtoileXML/ETXMLWriter.h>
 #import "EtoileText.h"
 
 @implementation ETXHTMLFootnoteBuilder
